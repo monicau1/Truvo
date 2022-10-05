@@ -1,0 +1,98 @@
+.center-contact {
+    width: 1110px;
+    margin: auto;
+    padding: 0 60px;
+}
+
+.center-contact h2 {
+    margin-bottom: 20px;
+    font-size: 27px;
+}
+
+.get-in-touch {
+    width: 780px;
+    display: inline-block;
+}
+
+.get-in-touch textarea,
+.get-in-touch input[name=name],
+.get-in-touch input[name=email],
+.get-in-touch input[name=subject] {
+    margin-bottom: 25px;
+    line-height: 20px;
+    padding: 0 12px;
+    color: rgb(51, 50, 50);
+}
+
+.get-in-touch textarea {
+    display: block;
+    resize: none;
+    font-size: 13px;
+    height: 190px;
+    width: 754px;
+    margin-bottom: 20px;
+    padding: 6px 12px;
+}
+
+.get-in-touch input[name=name],
+.get-in-touch input[name=email] {
+    width: 350px;
+    height: 48px;
+    
+}
+
+.get-in-touch input[name=email] {
+    margin-left: 20px;
+}
+
+.get-in-touch input[name=subject] {
+    display: block;
+    width: 750px;
+    height: 48px;
+    margin-bottom: 40px;
+}
+
+.send-button {
+    background-color: #1ec6b5;
+    color: white;
+    padding: 14px 44px;
+    border: none;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.send-button:hover {
+    background-color: #ff4a53;
+}
+
+.contact-info-div {
+    width: 280px;
+    float: right;
+    
+}
+
+.contact-info i {
+    font-size: 27px;
+    margin-right: 20px;
+    vertical-align: top;
+}
+
+.contact-info .fa-phone-square {
+    font-size: 29px;
+}
+
+.contact-info div {
+    display: inline-block;
+    margin-bottom: 25px;
+    
+}
+
+.contact-info div h3 {
+    font-size: 16px;
+}
+
+.contact-info div p {
+    color: #8a8a8a;
+    line-height: 28px
+}

@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+
+        <link href="css/general.css" rel="stylesheet" type="text/css">
+        <link href="css/menu.css" rel="stylesheet" type="text/css">
+        <link href="css/dest-top-area.css" rel="stylesheet" type="text/css">
+        <link href="css/where-togo.css" rel="stylesheet" type="text/css">
+        <link href="css/dest-popular-places.css" rel="stylesheet" type="text/css">
+        <link href="css/subscribe.css" rel="stylesheet" type="text/css">
+        <link href="css/recent-tips-area.css" rel="stylesheet" type="text/css">
+        <link href="css/footer.css" rel="stylesheet" type="text/css">
+
+        <title>Truvo</title>
+        <link rel="icon" type="image/x-icon" href="images/icon logo truvo.png">
+    </head>
+
+    <body>
+        <menu>
+            <div class="container">
+                <div class="logo-image">
+                    <a href="#"><img src="images/truvo logo.png"></a>
+                </div>
+    
+                <ul class="main-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="destination.html">Destination</a></li>
+                    <li><a href="#">Pages <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                        <ul>
+                            <li><a href="#">Destinations Details</a></li>
+                            <li><a href="#">Elements</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Blog <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                        <ul>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="#">Single-Blog</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+    
+                <div class="info">
+                    <div class="container">
+                        <div class="number">
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                            <p>10(256)-928 256</p>
+                        </div>
+                        
+                        <ul class="social-links">
+                            <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+             
+                    <div class="search">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </div>
+
+                </div>    
+            </div>
+        </menu>
+        
+        <div class="top-area">
+            <div class="center-container">
+                <h3>Destinations</h3>
+                <p>Pixel perfect design with awesome contens</p>
+            </div>
+        </div> 
+
+        <div class="where-togo-div">
+            <div class="container">
+                <h3>Where you want to go?</h3>
+                <input class="place-input" type="text" placeholder="Where to go?">
+                <input class="date-input" type="date" placeholder="Date">
+                <select class="travel-type" id="travel-type" name="travel-type">
+                    <option value="travel-type">Travel type</option>
+                    <option value="some-option">Some option</option>
+                    <option value="another-option">Another option</option>
+                </select>
+                <button class="search-button" type="submit">Search</button>
+            </div>
+        </div>
+
+        <div class="destination-popular-places">
+            <div class="center-container">
+                <div class="left-div">
+                    <div class="filter-div">
+                        <h3>Filter Result</h3>
+                        <div class="filter-border">
+                            <div class="filter-inner">
+                                <select id="country" name="country">
+                                    <option data-display="Country">Country</option>
+                                    <option value="africa">Africa</option>
+                                    <option value="canada">Canada</option>
+                                    <option value="USA">USA</option>
+                                </select>
+    
+                                <select id="travel-type" name="travel-type">
+                                    <option data-display="travel-type">Travel Type</option>
+                                    <option value="advance">advance</option>
+                                    <option value="advance">advance</option>
+                                    <option value="premium">premium</option>
+                                </select>
+
+                                <div class="range-filter">
+                                    <p class="filter-title">Price range</p>
+                                    <input type="range" min="1" max="600" value="50" class="slider" id="price">
+                                    <p class="price">$0 - $297</p>
+                                </div>
+                            </div>
+
+                            <button type="submit">Reset</button>
+
+                        </div>
+    
+                        
+                    </div>
+                </div>
+                
+                <div class="right-div">
+                    <div class="popular-places-div">
+                            <div class="places-gallery">
+                                <div class="places-div">
+                                    <div class="places-img">
+                                        <img src="images/california.webp">
+                                        <a class="price" href="#">$500</a>
+                                    </div>
+            
+                                    <div class="places-info">
+                                        <h3>California</h3>
+                                        <p>United State of America</p>
+                                        <div class="review">
+                                            <div class="review-container-left">
+                                                <div class="star-rating">
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                </div>
+                                                <a href="#">(20 review)</a>
+                                            </div>
+                                            
+                                            <div class="review-container-right">
+                                                <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                                <a href="#">5 Days</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+            
+                                <div class="places-div">
+                                    <div class="places-img">
+                                        <img src="images/miami beach.jpg">
+                                        <a class="price" href="#">$500</a>
+                                    </div>
+            
+                                    <div class="places-info">
+                                        <h3>Miami Beach</h3>
+                                        <p>United State of America</p>
+                                        <div class="review">
+                                            <div class="review-container-left">
+                                                <div class="star-rating">
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                </div>
+                                                <a href="#">(20 review)</a>
+                                            </div>
+                                            
+                                            <div class="review-container-right">
+                                                <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                                <a href="#">5 Days</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+            
+                                <div class="places-div">
+                                    <div class="places-img">
+                                        <img src="images/korola megna.png">
+                                        <a class="price" href="#">$500</a>
+                                    </div>
+            
+                                    <div class="places-info">
+                                        <h3>California</h3>
+                                        <p>Korola Megna</p>
+                                        <div class="review">
+                                            <div class="review-container-left">
+                                                <div class="star-rating">
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                </div>
+                                                <a href="#">(20 review)</a>
+                                            </div>
+                                            
+                                            <div class="review-container-right">
+                                                <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                                <a href="#">5 Days</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+            
+                                <div class="places-div">
+                                    <div class="places-img">
+                                        <img src="images/california bridge.jpg">
+                                        <a class="price" href="#">$500</a>
+                                    </div>
+            
+                                    <div class="places-info">
+                                        <h3>California</h3>
+                                        <p>United State of America</p>
+                                        <div class="review">
+                                            <div class="review-container-left">
+                                                <div class="star-rating">
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                </div>
+                                                <a href="#">(20 review)</a>
+                                            </div>
+                                            
+                                            <div class="review-container-right">
+                                                <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                                <a href="#">5 Days</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+            
+                                <div class="places-div">
+                                    <div class="places-img">
+                                        <img src="images/saintmarine iceland.png">
+                                        <a class="price" href="#">$500</a>
+                                    </div>
+            
+                                    <div class="places-info">
+                                        <h3>Saintmarine Iceland</h3>
+                                        <p>United State of America</p>
+                                        <div class="review">
+                                            <div class="review-container-left">
+                                                <div class="star-rating">
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                </div>
+                                                <a href="#">(20 review)</a>
+                                            </div>
+                                            
+                                            <div class="review-container-right">
+                                                <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                                <a href="#">5 Days</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+            
+                                <div class="places-div">
+                                    <div class="places-img">
+                                        <img src="images/london.jpg">
+                                        <a class="price" href="#">$500</a>
+                                    </div>
+            
+                                    <div class="places-info">
+                                        <h3>London</h3>
+                                        <p>United State of America</p>
+                                        <div class="review">
+                                            <div class="review-container-left">
+                                                <div class="star-rating">
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                </div>
+                                                <a href="#">(20 review)</a>
+                                            </div>
+                                            
+                                            <div class="review-container-right">
+                                                <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                                <a href="#">5 Days</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="subcribe-div">
+            <div class="container">
+                <div class="title">
+                    <h4>Subscribe Our Newsletter</h4>
+                    <p>Subscribe newsletter to get offers and about new places to discover.</p>
+                </div>
+
+                <div class="input">
+                    <input type="email" placeholder="Your mail">
+                    <button type="submit">Subscribe</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="recent-tips-area">
+            <div class="center-container">
+                <h3 class="title">Recent Tips</h3>
+                <div class="tips-list">
+                    <div class="single-tips">
+                        <img src="images/tips image.png">
+                        <div class="tips-info">
+                            <p class="date">Oct 12, 2019</p>
+                            <h3 class="tips-title">Journeys Are Best Measured In New Friends</h3>
+                        </div>
+                    </div>
+
+                    <div class="single-tips">
+                        <img src="images/snorkeling.jpg">
+                        <div class="tips-info">
+                            <p class="date">Oct 12, 2019</p>
+                            <h3 class="tips-title">Journeys Are Best Measured In New Friends</h3>
+                        </div>
+                    </div>
+
+                    <div class="single-tips">
+                        <img src="images/india.jpg">
+                        <div class="tips-info">
+                            <p class="date">Oct 12, 2019</p>
+                            <h3 class="tips-title">Journeys Are Best Measured In New Friends</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="footer-top">
+                <div class="center-container">
+                    <div class="first-col">
+                        <a class="logo-image" href="#">
+                            <img src="images/truvo logo dark.png">
+                        </a>
+    
+                        <p>
+                            5th flora, 700/D kings road, green 
+                            <br> 
+                            lane New York-1782 
+                            <br>
+                            <a href="#">+10 367 826 2567</a> 
+                            <br>
+                            <a href="#">contact@carpenter.com</a>
+                        </p>
+    
+                        <div class="social-links">
+                            <ul>
+                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+    
+                    <div class="second-col">
+                        <h3>Company</h3>
+                        <ul>
+                            <li><a href="#">Pricing</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Gallery</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+    
+                    <div class="third-col">
+                        <h3>Popular Destination</h3>
+                        <ul>
+                            <li><a href="#">Indonesia</a></li>
+                            <li><a href="#">India</a></li>
+                            <li><a href="#">Italy</a></li>
+                            <li><a href="#">French</a></li>
+                            <li><a href="#">America</a></li>
+                            <li><a href="#">Switzerland</a></li>
+                            <li><a href="#">Canada</a></li>
+                            <li><a href="#">England</a></li>
+                        </ul>
+                    </div>
+    
+                    <div class="fourth-col">
+                        <h3>Instagram</h3>
+                        <a href="#">
+                            <img src="images/california bridge.jpg">
+                        </a>
+                        <a href="#">
+                            <img src="images/miami beach.jpg">
+                        </a>
+                        <a href="#">
+                            <img src="images/london.jpg">
+                        </a>
+                        <a href="#">
+                            <img src="images/korola megna.png">
+                        </a>
+                        <a href="#">
+                            <img src="images/california.webp">
+                        </a>
+                        <a href="#">
+                            <img src="images/saintmarine iceland.png">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="center-container">
+                    <p class="copyright">Copyright &copy;2022 All rights reserved | This template is made with &hearts; by <span>Colorlib</span></p>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

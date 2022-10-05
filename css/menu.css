@@ -1,0 +1,145 @@
+ul li {
+    list-style-type: none;
+}
+
+ul li a{
+    text-decoration: none; 
+}
+
+menu {
+    background-color: white;
+    padding: 30px 0 30px 20px;
+    height: 50px;
+    position: relative;
+}
+
+menu .container {
+    display: inline-block;
+}
+
+menu .logo-image {
+    margin-right: 25px;
+    padding: 0 22px;
+    float: left;
+}
+
+menu .logo-image img {
+    width: 140px;
+    height: 40px;
+    object-fit: cover;
+}
+
+menu .main-menu {
+   float: left;
+   padding: 12px;
+}
+
+menu .main-menu li {
+    float: left;
+    margin-right: 35px;
+    position: relative;
+}
+
+menu .main-menu li a {
+    color: black;
+}
+
+menu .main-menu li i {
+    color: #aab1b7;
+}
+
+menu .main-menu li ul {
+    background-color: white;
+    visibility: hidden;
+    position: absolute;
+    top: 20px;
+    width: 220px;
+    transition: all 0.6s ease;
+    z-index: 2;
+    opacity: 0;
+}
+
+menu .main-menu li:hover > ul {
+    visibility: visible;
+    opacity: 1;
+    top: 45px;
+}
+
+menu .main-menu li ul li {
+    float: none;
+    position: relative;
+}
+
+menu .main-menu li ul li a {
+    line-height: 40px;
+    padding: 0 15px;
+    position: relative;
+}
+
+menu .main-menu li a:hover {
+    color: rgb(29, 163, 127);
+}
+
+menu .info {
+    padding: 12px 0;
+}
+
+menu .info .container {
+    position: absolute;
+    margin-right: 80px;
+    right: 0;
+}
+
+menu .info .number {
+    display: inline-block;
+    padding-right: 10px;
+    border-right: 1px solid #aab1b7;
+}
+
+menu .info .number i {
+    color: #ff4a53;
+}
+
+
+menu .info .number p {
+    font-size: 16px;
+    display: inline-block;
+}
+
+menu .info .social-links {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+menu .info .social-links li {
+    display: inline-block;
+    margin: 0 11px;
+}
+
+menu .info .social-links li i {
+    color: #aab1b7;
+    transition: color 0.3s ease;
+}
+
+menu .info .social-links li:hover i {
+    color: #ff4a53;
+}
+
+menu .info .search {
+    background-color: #ff4a53;
+    width: 80px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+.search i {
+    color: white;
+    width: 16px;
+    height: 16px;
+    display: block;
+    margin: auto;
+    padding: 50% 0;
+}

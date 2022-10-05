@@ -1,0 +1,65 @@
+.where-togo-div {
+    background-color: #040e27;
+    padding: 50px 0;
+    width: 100%;
+}
+
+.where-togo-div .container {
+    width: 1140px;
+    margin: auto;
+}
+
+.where-togo-div h3 {
+    font-size: 24px;
+    color: white;
+    display: inline-block;
+}
+
+.place-input,
+.date-input,
+.travel-type {
+    background-color: #040e27;
+    color: #c4cfe9;
+    border: 1px solid #363e52;
+    border-radius: 5px;
+    line-height: 24px;
+    height: 48px;
+    width: 220px;
+    font-size: 16px;
+    margin-left: 8px;
+    padding-left: 15px;
+    padding-right: 2px;
+}
+
+input[type=text].place-input::-webkit-input-placeholder {
+    color: #d1ddf7;
+}
+
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+.date-input {
+    cursor: text;
+}
+
+.travel-type {
+    cursor: pointer;
+}
+
+.search-button {
+    background-color: #ff4a53;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 13px 39px;
+    display: inline-block;
+    margin-left: 8px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: #1ec6b5;
+}
+

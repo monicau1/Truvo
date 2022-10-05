@@ -1,0 +1,144 @@
+.popular-places-div {
+    background-color: white;
+}
+
+.popular-places-div .container {
+    margin: 0 61px;
+    padding: 120px 0;
+}
+
+.popular-places-div .title {
+    background-color: white;
+    text-align: center;
+    width: 570px;
+    margin: auto;
+}
+
+.popular-places-div .title h3 {
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+
+.popular-places-div .places-gallery {
+    padding-top: 30px;
+    width: 1140px;
+    margin: auto;
+}
+
+.popular-places-div .places-div {
+    background-color: white;
+    width: 350px;
+    margin: 10px;
+    display: inline-block;   
+    border-radius: 5px;
+    transition: box-shadow .3s;
+    cursor: pointer;
+}
+
+.popular-places-div .places-div:hover {
+    box-shadow: 0 3px 15px rgba(33,33,33,.1);
+}
+
+.popular-places-div .places-div:hover .places-img .price {
+    background-color: #ff4a53;
+}
+
+.popular-places-div .places-div:hover .places-info h3 {
+    color: #ff4a53;
+}
+
+.places-img {
+    position: relative;
+}
+
+.places-img img {
+    width: 350px;
+    height: 197px;
+    object-fit: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.places-img .price {
+    background-color: #1ec6b5;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 6px 18px;
+    margin-left: 10px;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    position: absolute;
+    top: 25px;
+    left: 10px;
+}
+
+.popular-places-div .places-info {
+    padding: 27px 20px 25px 20px;
+}
+
+.popular-places-div .places-info h3 {
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 400;
+    transition: color 0.3s ease;
+}
+
+.popular-places-div .places-info p {
+    color: rgb(122, 131, 139);
+    font-size: 14px;
+    line-height: 28px;
+    margin-top: 2px;
+    margin-bottom: 7px;
+}
+
+.popular-places-div .places-info .review {
+    font-size: 14px;
+}
+
+.popular-places-div .review a {
+    color: rgb(122, 131, 139);
+    text-decoration: none;
+}
+
+.fa-clock-o {
+    color: rgb(122, 131, 139);
+}
+ 
+.popular-places-div .review .review-container-left {
+    display: inline-block;
+}
+
+.popular-places-div .review .star-rating {
+    color: orange;
+    font-size: 11px;
+    display: inline-block;
+}
+
+.popular-places-div .review .review-container-right {
+    float: right;
+}
+
+.center-more-places-button {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.more-places-button {
+    background-color: #ff4a53;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 15px 39px;
+    border: none;
+    border-radius: 5px;
+    margin: auto;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.more-places-button:hover {
+    background-color: #1ec6b5;
+}
+

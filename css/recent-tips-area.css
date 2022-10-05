@@ -1,0 +1,49 @@
+.recent-tips-area {
+    padding: 150px 0;
+}
+
+.recent-tips-area .title {
+    margin-bottom: 62px;
+    font-size: 38px;
+    font-weight: 400;
+}
+
+.recent-tips-area .center-container {
+    width: 1240px;
+    margin: auto;
+    text-align: center;
+}
+
+.single-tips {
+    width: 350px;
+    display: inline-block;
+    padding: 0 15px;
+    text-align: left;
+}
+
+.single-tips img {
+    width: 350px;
+    height: 240px;
+    border-radius: 5px;
+}
+
+.single-tips .tips-info {
+    padding-top: 16px;
+}
+
+.tips-info .date {
+    font-size: 14px;
+    color: #7a838b;
+}
+
+.tips-info .tips-title {
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 10px;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+.single-tips:hover {
+    color: #ff4a53;
+}

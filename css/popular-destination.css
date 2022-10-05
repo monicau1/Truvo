@@ -1,0 +1,79 @@
+.popular-destination-div {
+    background-color: white;
+}
+
+.popular-destination-div .container {
+    margin: 0 61px;
+    padding: 120px 0;
+}
+
+.popular-destination-div .title {
+    text-align: center;
+    width: 570px;
+    margin: auto;
+}
+
+.popular-destination-div h3 {
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+
+.popular-destination-div .image-destination {
+    padding-top: 30px;
+    width: 1140px;
+    margin: auto;
+}
+
+.popular-destination-div .img-div {
+    width: 350px;
+    height: 261px;
+    margin: 10px;
+    filter: brightness(85%);
+    display: inline-block;
+    position: relative;
+    transition: all 0.3s;
+    cursor: pointer;
+    top: 0;
+}
+
+.popular-destination-div .img-div:hover {
+   top: -8px;
+}
+
+.popular-destination-div .img-div:hover .country-info p {
+    color: #ff4a53;
+}
+
+.popular-destination-div .img-div:hover .country-info a {
+    background-color: #ff4a53;
+}
+
+.popular-destination-div .img-div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.popular-destination-div .country-info {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+}
+
+.popular-destination-div .country-info p {
+    display: inline-block;
+    font-size: 22px;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.popular-destination-div .country-info a {
+    background-color: #1ec6b5;
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 3px 12px;
+    margin-left: 10px;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}

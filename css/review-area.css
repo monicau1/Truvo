@@ -1,0 +1,46 @@
+.review-area {
+    padding-top: 100px;
+    padding-bottom: 118px;
+    background-color: #F7FAFD;
+}
+
+.review-area .center-container {
+    width: 730px;
+    margin: auto;
+    text-align: center;
+}
+
+.review-area .center-container img {
+    width: 106px;
+    border-radius: 50%;
+}
+
+.review-text {
+    font-size: 18px;
+    line-height: 32px;
+    margin-top: 34px;
+    margin-bottom: 10px;
+}
+
+.review-author {
+    font-size: 16px;
+    color: #7a838b;
+    margin-bottom: 8px;
+}
+
+.pagination-div{
+    margin-top: 24px;
+}
+
+.pagination-div a {
+    background-color: #7a838b;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.pagination-div a.active {
+    background-color: #ff4a53;
+}
