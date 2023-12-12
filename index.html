@@ -31,9 +31,9 @@
                 </div>
     
                 <ul class="main-menu">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="destination.html">Destination</a></li>
+                    <li><a href="./">Home</a></li>
+                    <li><a href="./about">About</a></li>
+                    <li><a href="./destination">Destination</a></li>
                     <li><a href="#">Pages <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                         <ul>
                             <li><a href="#">Destinations Details</a></li>
@@ -42,11 +42,11 @@
                     </li>
                     <li><a href="#">Blog <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                         <ul>
-                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="./blog">Blog</a></li>
                             <li><a href="#">Single-Blog</a></li>
                         </ul>
                     </li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="./contact">Contact</a></li>
                 </ul>
     
                 <div class="info">
@@ -389,19 +389,32 @@
             </div>
         </div>
 
-        <div class="review-area">
+        <div class="review-area slideshow">
             <div class="center-container">
-                <div class="single-review">
-                    <img src="images/person.jpg">
-                    <p class="review-text">"Working in conjunction with humanitarian aid agencies, we have supported programmes to help alleviate human suffering.</p>
-                    <p class="review-author">- Mickey Mouse</p>
+                <div class="single-review fade">
+                    <img src="images/person1.jpg">
+                    <p class="review-text">"Effortless booking, diverse options, and reliable service—my go-to for stress-free travel.</p>
+                    <p class="review-author">- Annie Smith</p>
+                </div>
+
+                <div class="single-review fade">
+                    <img src="images/person2.jpg">
+                    <p class="review-text">"The intuitive user interface, diverse travel options, and responsive customer support make this website a standout choice for seamless and enjoyable travel experiences.</p>
+                    <p class="review-author">- Elenor</p>
+                </div>
+
+                <div class="single-review fade">
+                    <img src="images/person3.jpg">
+                    <p class="review-text">"Efficient, diverse, and reliable—this travel service makes journey planning a breeze.</p>
+                    <p class="review-author">- Jerry Mouse</p>
                 </div>
                 
-                <div class="pagination-div">
-                    <a href="#" class="active"></a>
-                    <a href="#"></a>
-                    <a href="#"></a>
+                <div class="controls">
+                    <span class="dot fade" onclick="currentSlide(1)"></span>
+                    <span class="dot fade" onclick="currentSlide(2)"></span>
+                    <span class="dot fade" onclick="currentSlide(3)"></span>
                 </div>
+
             </div>
         </div>
 
@@ -519,5 +532,7 @@
                 </div>
             </div>
         </footer>
+    
+        <script src="scripts.js"></script>
     </body>
 </html>
